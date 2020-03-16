@@ -1,0 +1,46 @@
+#name{
+    text-align: center;
+    text-decoration: black; 
+}
+#desc{
+    text-align: center;
+    text-decoration: black;
+}
+
+.img-thumbnail {
+    margin-top: 20px;
+}
+.jumbotron{
+    color: black;
+}
+
+a{
+    text-decoration: black;
+}
+a:hover{
+    text-decoration: none;
+}
+
+body{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+canvas{
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 2000px;
+    height: 1200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}

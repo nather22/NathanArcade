@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        canvas{
+            border: 1px solid black;
+            padding: 0;
+            margin: auto;
+            display: block;
+            width: 1300px;
+            height: 550px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+        #background{
+            background: black;
+        }
+    </style>
+    <title>Super Dodger</title>
+</head>
+<body>
+    <canvas id="background" width=1300 height=550 style="border: 1px solid black"></canvas>
+    <canvas id="player" width=1300 height=550 style="border: 1px solid black"></canvas>
+    <canvas id="gui" width=500 height=400></canvas>
+
+    <a href="../index.html">
+        <h2 id="back">Back</h2>
+    </a>
+
+    <script src="scripts/superdodger.js"></script>
+</body>
+</html>
